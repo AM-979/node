@@ -18,7 +18,6 @@ services:
       - --http.corsdomain=*
       - --http.vhosts=*
     volumes:
-      - ./genesis.json:/genesis.json
       - ./data:/datadir
       - ./geth-script.sh:/root/geth-script.sh
       - ./config:/config
